@@ -29,8 +29,8 @@ public class BookListApplication {
 			drepository.save(new Category("Fantasia"));
 			drepository.save(new Category("Draama"));
 		    
-			srepository.save(new Book("Tieteisseikkailu", "Tieteisseikkailukirjailija", 2020, 20.00, drepository.findByName("Sci-fi").get(0)));
-			srepository.save(new Book("Fantasiaseikkailu", "Fantasiaseikkailukirjailija", 2019, 20.00, drepository.findByName("Fantasia").get(0)));
+			srepository.save(new Book("TieteisseikkailuREST", "Tieteisseikkailukirjailija", 2020, 20.00, drepository.findByName("Sci-fi").get(0)));
+			srepository.save(new Book("FantasiaseikkailuREST", "Fantasiaseikkailukirjailija", 2019, 20.00, drepository.findByName("Fantasia").get(0)));
 			
 			log.info("fetch all books");
 			for (Book book : srepository.findAll()) {
