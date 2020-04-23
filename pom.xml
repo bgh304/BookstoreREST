@@ -5,11 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>fi.haagahelia.course</groupId>
-	<artifactId>StudentListOneToMany</artifactId>
+	<artifactId>BookstoreTesting</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>StudentListOneToMany</name>
+	<name>BookstoreTesting</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
